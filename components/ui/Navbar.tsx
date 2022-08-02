@@ -1,6 +1,7 @@
 import { Link, Spacer, Text } from "@nextui-org/react";
-import Image from "next/image";
+
 import NextLink from 'next/link'
+import { Image } from "./Image";
 
 export const Navbar = () => {
 
@@ -29,7 +30,7 @@ export const Navbar = () => {
             <NextLink href="/" passHref>
                 <Link>
                     <Text color="white" h2>P</Text>
-                    <Text color="white" h3>okémon</Text>
+                    <Text color="white" h3>okémon!</Text>
                 </Link>
             </NextLink>
 
@@ -37,7 +38,7 @@ export const Navbar = () => {
 
             <NextLink href="/favorites" passHref>
                 <Link>
-                    <Text color="white" >Favoritos</Text>
+                    <Text color="white" css={{fontWeight: 'bold'}}>Favoritos</Text>
                 </Link>
             </NextLink>
 
