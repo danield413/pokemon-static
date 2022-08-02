@@ -19,10 +19,10 @@ export const Layout: FC<ComponentProps> = ({ children, title }) => {
                 <meta name="description" content={`Información sobre el pokemon ${ title }`} />
                 <meta name="keywords" content={`${title}, pokemon, pokedex`}/>
 
-                <meta property="og:title" content={`Información sobre ${title}`} />
-                <meta property="og:description" content={`Èsta es la página sobre ${title}`} />
-                <meta property="og:image" content={`${origin}/img/banner.png`} />
-            </Head>
+                <meta property="og:title" content={`Información sobre ${ title }`} />
+                <meta property="og:description" content={`Esta es la página sobre ${ title }`} />
+                <meta property="og:image" content={`${ origin }/img/banner.png`} />
+                </Head>
 
             <Navbar />
 
